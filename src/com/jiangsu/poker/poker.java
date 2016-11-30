@@ -61,7 +61,7 @@ public class poker {
 	
 	public static void lookpoker(HashMap<Integer,String>hm,TreeSet<Integer>ts,String name){
 		for(Integer i : ts){
-			System.out.print(hm.get(i)+"");
+			System.out.print(name+"的牌是:"+hm.get(i));
 		}
 		System.out.println();
 	}
